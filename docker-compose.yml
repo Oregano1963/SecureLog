@@ -1,5 +1,5 @@
 
-
+version: '2.40'
 services:
   web:
     image:
@@ -11,5 +11,9 @@ services:
     depends_on:
       - server
   server:
-    ports: 3000
+    ports: 
+      - '3000'
+      - '8000:80'
+    volumes:
+      - .:/app
   
