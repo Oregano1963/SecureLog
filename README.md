@@ -6,9 +6,13 @@ Fast API -> POST JSON {key:str, data:str} -> crypto -> {data:str}
 
 Guidelines on SecureLog usage:
 
-* DO
-* 
-* 
+* DO create a key who's sole purpose is to be used in SecureLog
+* DO NOT upload sensitive information such as legitimate private keys or personal data. SecureLog is not responsible for damages caused by user uploads to its platform
+* DO NOT upload illegal material onto our site
+* DO keep the size and number of requests reasonable
+* When encrypting/decrypting data, DO make a POST request with a JSON object of the form {key:str, data:str}
+* DO NOT send objects with null fields
+  
 
 
 Developer Challenge
