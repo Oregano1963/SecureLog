@@ -4,6 +4,13 @@ Full stack cryptography for the SecureLog non profit
 Fast API -> POST JSON {key:str, data:str} -> crypto -> {data:str}
 
 
+Guidelines on SecureLog usage:
+
+* DO
+* 
+* 
+
+
 Developer Challenge
 Context and Problem Statement
 
