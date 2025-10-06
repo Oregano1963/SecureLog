@@ -1,0 +1,7 @@
+fastapi
+json
+uvicorn
+nacl
+request
+datetime
+psycopg2
