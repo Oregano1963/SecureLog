@@ -2,6 +2,7 @@
 Full stack cryptography for the SecureLog non profit
 
 Simply navigate to the page with the desired feature (encryption, decryption, or logs) and fill out the text boxes with the necessary data. 
+
 Guidelines on SecureLog usage:
 
 * DO create a key who's sole purpose is to be used in SecureLog
